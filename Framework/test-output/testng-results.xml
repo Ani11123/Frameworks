@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up report and Test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting up report is done and Test is started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser is started]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test is completed report is ready]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test is completed report is ready]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser, and closed!]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21137" started-at="2020-04-28T10:35:55Z" finished-at="2020-04-28T10:36:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21137" started-at="2020-04-28T10:35:55Z" finished-at="2020-04-28T10:36:16Z">
+      <class name="com.testcase.LoginTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.testcase.LoginTest@1740a0f]" name="setUpSuite" is-config="true" duration-ms="1210" started-at="2020-04-28T10:35:54Z" finished-at="2020-04-28T10:35:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up report and Test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting up report is done and Test is started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcase.LoginTest@1740a0f]" name="setup" is-config="true" duration-ms="11753" started-at="2020-04-28T10:35:55Z" finished-at="2020-04-28T10:36:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser is started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyLoginSuccess()[pri:1, instance:com.testcase.LoginTest@1740a0f]" name="VerifyLoginSuccess" duration-ms="6734" started-at="2020-04-28T10:36:07Z" finished-at="2020-04-28T10:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginSuccess -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.testcase.LoginTest@1740a0f]" name="teardownMethod" is-config="true" duration-ms="1144" started-at="2020-04-28T10:36:14Z" finished-at="2020-04-28T10:36:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginSuccess status=SUCCESS method=LoginTest.VerifyLoginSuccess()[pri:1, instance:com.testcase.LoginTest@1740a0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test is completed report is ready]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="VerifyLoginOutFail()[pri:2, instance:com.testcase.LoginTest@1740a0f]" name="VerifyLoginOutFail" duration-ms="2" started-at="2020-04-28T10:36:15Z" finished-at="2020-04-28T10:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginOutFail -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.testcase.LoginTest@1740a0f]" name="teardownMethod" is-config="true" duration-ms="550" started-at="2020-04-28T10:36:15Z" finished-at="2020-04-28T10:36:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginOutFail status=SUCCESS method=LoginTest.VerifyLoginOutFail()[pri:2, instance:com.testcase.LoginTest@1740a0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test is completed report is ready]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcase.LoginTest@1740a0f]" name="teardown" is-config="true" duration-ms="877" started-at="2020-04-28T10:36:15Z" finished-at="2020-04-28T10:36:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing browser, and closed!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcase.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
