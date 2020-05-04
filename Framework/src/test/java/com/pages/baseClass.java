@@ -10,7 +10,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
@@ -41,12 +40,13 @@ public ExtentTest Logger;
 		Report.attachReporter(extent);
 		Reporter.log("Setting up report is done and Test is started",true);
 	}
-
+	
 	@BeforeClass
 	public void setup()
 	{
 		Reporter.log("Trying to start browser",true);
 		driver= browserFactory.startApplication(driver, Config.getBrowser(),Config.getTestUrl());
+		//driver= browserFactory.startApplication(driver, browser,Config.getTestUrl());
 		Reporter.log("Browser is started",true);
 	}
 	

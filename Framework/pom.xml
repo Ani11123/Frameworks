@@ -57,7 +57,7 @@
         <configuration>
           <suiteXmlFiles>
             <suiteXmlFile>XMLFiles/testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
+          </suiteXmlFiles>         
         </configuration>
       </plugin>
     </plugins>
