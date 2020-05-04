@@ -10,7 +10,7 @@ public class LoginPage {
 @Inject
 	WebDriver driver;
 	
-	/* By Class example
+	/* By Class exampleesss
 	By UserName=By.xpath("//input[@id=\"txtUsername\"]");
 	By Password=By.xpath("//input[@id=\"txtPassword\"]");
 	By Submit=By.xpath("//input[@id=\"btnLogin\"]");*/
