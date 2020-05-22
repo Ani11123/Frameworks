@@ -61,12 +61,12 @@
         <version>3.0.0-M4</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>XMLFiles/${xmlFiles}</suiteXmlFile> <!-- xml file parameter declarations -->
+            <suiteXmlFile>XMLFiles/${xmlFiles}</suiteXmlFile>
           </suiteXmlFiles>
           
           <systemPropertyVariables>
-          	<executionBrowser>${browser}</executionBrowser><!-- Browser parameter declarations -->
-          	<appURL>${siteName}</appURL><!-- Application url parameter declarations -->
+          	<executionBrowser>${browser}</executionBrowser>
+          	<appURL>${siteName}</appURL>
           </systemPropertyVariables>        
         </configuration>
       </plugin>
