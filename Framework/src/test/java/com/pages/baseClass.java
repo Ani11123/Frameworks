@@ -52,7 +52,6 @@ public ExtentTest Logger;
 		Reporter.log("Browser is started",true);
 	}
 	
-
 	@AfterClass
 	public void teardown() 
 	{
